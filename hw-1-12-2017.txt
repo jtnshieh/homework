@@ -1,0 +1,5 @@
+Exercise 1: Absolute vs. relative paths
+
+5, 7, 8 and 9 are all correct.
+
+
