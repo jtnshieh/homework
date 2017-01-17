@@ -15,4 +15,6 @@ Exercise 4: Exploring More ls Arguments
 -l stands for long listing format, which adds additional information such as file size.
 -h stands for "human readable," which makes information readable in layman terms.
 
+Exercise 5: Listing Recursively and By Time
 
+The directories are listed in alphabetical order, and the files within are organized chronologically based off of the last edit.
