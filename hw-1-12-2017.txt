@@ -10,4 +10,9 @@ Exercise 3: ls Reading Comprehension
 
 2,3, and 4 are correct.
 
+Exercise 4: Exploring More ls Arguments
+
+-l stands for long listing format, which adds additional information such as file size.
+-h stands for "human readable," which makes information readable in layman terms.
+
 
