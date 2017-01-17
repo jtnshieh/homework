@@ -6,4 +6,8 @@ Exercise 2: Relative Path Resolution
 
 4 is correct.
 
+Exercise 3: ls Reading Comprehension
+
+2,3, and 4 are correct.
+
 
