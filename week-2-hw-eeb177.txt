@@ -159,3 +159,13 @@ Vespertilionidae
 Viverridae
 Vombatidae
 Ziphiidae
+  576  cd ../sandbox/
+  577  tail -n +2 ../data/Pacifici2013_data.csv
+  578  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6
+  579  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' '
+  580  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+  581  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.csv
+  582  history 
+  583  history | tail -n 7
+  584  history | tail -n 10
+  585  history | tail -n 10 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt 
