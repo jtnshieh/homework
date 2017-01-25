@@ -169,3 +169,6 @@ Ziphiidae
   583  history | tail -n 7
   584  history | tail -n 10
   585  history | tail -n 10 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt 
+Question 4:
+The 10th largest species: Pipistrellus nanulus
+The 10th smallest species: Eubalaena glacialis
