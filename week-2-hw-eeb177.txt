@@ -216,4 +216,17 @@ Once you're in the directory, Saavedra2013
 4. rm edited-n{1..59}.txt
 
 Question 8:
+Using grep:
+1, 2, 3, and 4 would all work.
+Find Pipeling Reading Comprehension:
+The shell script will print out the amount of lines of files that have names that end with .dat and that have been sorted alphabetically.
+Matching and Subtracting:
+3 would do the required task.
+Tracking a Species:
+cut -d , -f 2 > $1.txt | grep -w $1 -r $2 | cut -d , -f 1,3
+Little Women:
+First, copy the LittleWomen.txt three times so you have four copies. Then, use a loop and the following code - wc -w $(grep "Jo" LittleWomen.txt) - to find the count for each of the four women.
+Finding Files with Different Properties:
+$ find ./ -type f -mtime -1 user ahmed
+
 
