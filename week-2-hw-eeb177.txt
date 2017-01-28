@@ -1,10 +1,14 @@
 This is for homework.
+
+Question 1:
 Rodentia
 Rodentia
 Rodentia
 Macroscelidea
 0
 0
+
+Question 2:
 There are 153 unique families:
 Abrocomidae
 Acrobatidae
@@ -159,6 +163,8 @@ Vespertilionidae
 Viverridae
 Vombatidae
 Ziphiidae
+
+Question 3:
   576  cd ../sandbox/
   577  tail -n +2 ../data/Pacifici2013_data.csv
   578  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6
@@ -169,6 +175,45 @@ Ziphiidae
   583  history | tail -n 7
   584  history | tail -n 10
   585  history | tail -n 10 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt 
+
 Question 4:
 The 10th largest species: Pipistrellus nanulus
 The 10th smallest species: Eubalaena glacialis
+
+Question 5:
+  697  ls
+  698  cd ../sandbox/
+  699  ls
+  700  wc -l BodyM.csv 
+  701  grep Vombatidae
+  702  grep Vombatidae BodyM.csv 
+  703  grep -c Vombatidae BodyM.csv 
+  704  grep Bos BodyM.csv 
+  705  grep -w Bos BodyM.csv 
+  706  grep -i Bos BodyM.csv 
+  707  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv 
+  708  grep -n "Gorilla gorilla" BodyM.csv 
+  709  grep Gorilla BodyM.csv | grep -v gorilla
+  710  grep -w "Gorilla\|Pan" BodyM.csv 
+  711  cd ~/CSB/unix/
+  712  cd ..
+  713  grep -r "Gorilla" data/
+  714  history | tail -n 10
+  715  history | tail -n 20
+  716  history | tail -n 20 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt 
+
+Question 6:
+2. The size of the file is 566026.
+4. There are 16 contigs classified as isogroup00036.
+6. There are 43 unique isogroups.
+7. The contig that has the highest number of reads is 00302. It has 3330 reads.
+
+Question 7: (This doesn't uses a loop but accomplishes the same thing.)
+Once you're in the directory, Saavedra2013
+1. for $filename in *.txt; cp $filename edited-$filename; done	
+2. cp edited-n{1..59}.txt ~/Desktop/eeb-177/CSB/unix/sandbox/temp
+3. cd ../../data/Saavedra2013/
+4. rm edited-n{1..59}.txt
+
+Question 8:
+
