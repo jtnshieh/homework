@@ -4,6 +4,9 @@ QUESTION 1
 2. and 3. - I pushed the two scripts onto Github.
 
 QUESTION 2
+1.11.3
+1. and 2. - I pushed the two scripts onto Github.
+3. The file that has the largest number of rows: n58.txt;the file that has the largest number of columns: n56.txt.
 
 QUESTION 3
 
